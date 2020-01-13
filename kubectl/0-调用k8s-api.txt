@@ -1,0 +1,5 @@
+# kubectl get --raw="https://10.0.1.9:6443/healthz/ping"
+ok
+
+查看所有api(随便输入个网址)
+# kubectl get --raw="https://10.0.1.9:6443"
